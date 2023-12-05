@@ -26,7 +26,7 @@ async function gotLocation(position) {
     try {
         let temperature = await getData(position.coords.latitude, position.coords.longitude);
         result.innerHTML = `
-            <h5 class="a8"> Atmospheric conditions at your current location  is  ${temperature}°C</h5>
+           <div class="cl"> <h5 class="a8 text-center"> Atmospheric conditions at your current location  is  ${temperature}°C</h5></div>
         `;
     } catch (error) {
         console.error('Error getting location:', error);

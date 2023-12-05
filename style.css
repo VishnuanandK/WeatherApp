@@ -85,6 +85,9 @@ width: 500px;
     align-items: center;
     
 }
+.cl{
+    width: 500px;
+}
 @media (max-width:600px) {
     .card{
         width: 300px;
@@ -100,7 +103,7 @@ width: 500px;
 
         width: 320px;
     }
-    .a8{
+    .cl{
         width: 320px;
     }
 }
